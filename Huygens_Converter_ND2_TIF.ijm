@@ -1,5 +1,5 @@
-//Converting ND2 images in batch
-//Modified from ConvertFile_SeparateChZ_OrgName, last update 2021-07-19
+//Converting ND2 images in batch to .ome.tif files so it can be run with Huygens software
+//Last update 2022-04-21
 //Contact SoYeon Kim for questions: soyeon.kim@ucsf.edu
 
 //Show all the images opens up
