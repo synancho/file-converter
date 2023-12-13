@@ -6,7 +6,7 @@
 setBatchMode("show"); 
 
 //Assign the input file type and output file type
-inFileType = ".ome.tif";
+inFileType = ".nd2";
 outFileType = ".tif";
 
 //Comanand for enabling Bio-Formats functions
@@ -17,7 +17,7 @@ inMainDir=getDirectory("Select source directory with input images");
 outDir=getDirectory("Select or create destination directory for output images and data");
 
 //Listing the subfolders within the main source folder
-fileListMain=getFileList(inMainDir); //Listing the files within the main input folder
+fileListMain=getFileList(inMainDir);
 
 for (i=0; i<fileListMain.length; i++) { //Looping through all the subfolders and files within the main input folder 	
 	
